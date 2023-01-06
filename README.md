@@ -1,2 +1,1 @@
-# Generic-loading-indicator
-change number 3
+# generic loading indicator
