@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import PropTypes from 'prop-types';
 import './loading.css';
-//Loading
+
 export const Content = ({ primary, size, borderTopColor, ...props }) => {
 
   const mode = primary ? 'loading--primary' : 'loading--secondary';
