@@ -1,5 +1,5 @@
 import React from "react";
-import { Content } from "../component/content";
+import { Content } from "../../dist/index";
 export default {
   title: 'Loading/Content',
   component: Content,
