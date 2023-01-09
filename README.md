@@ -7,12 +7,12 @@ npm install --save-dev https://github.com/Kaavian-Systems-Pvt-Ltd/loading-indica
 Each loader accepts a loading prop as a boolean. The loader will render null if loading is false.
 
 ## Example
-#### import React, {useEffect,useState} from "react";
-#### import { Content } from "@kaavian-sys/loading-indicator";
+ import React, {useEffect,useState} from "react";
+ import { Content } from "@kaavian-sys/loading-indicator";
 
-#### function Module(){
+ function Module(){
     const [post,setPost]=useState(null)
-#### useEffect(() => {
+ useEffect(() => {
    fetch('https://jsonplaceholder.typicode.com/posts/1')
 
         .then(res=>res.json())
