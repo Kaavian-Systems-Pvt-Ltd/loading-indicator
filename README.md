@@ -22,9 +22,7 @@ Each loader accepts a loading prop as a boolean. The loader will render null if 
         .then(res=>res.json())
 
           .then(res=>{
-
               const {body}= res
-
                 console.log(body); 
 
                 setPost(body);
